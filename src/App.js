@@ -19,14 +19,7 @@ function App() {
       }
       return array
   }
-	 	const [positions,setPositions] = useState([]);
-//   const [positions1,setPositions1] = useState([]);
-//   const [positions2,setPositions2] = useState([]);
-//   const [positions3,setPositions3] = useState([]);
-//   const [positions4,setPositions4] = useState([]);
-//   const [positions5,setPositions5] = useState([]);
-//   const [positions6,setPositions6] = useState([]);
-//   const [positions7,setPositions7] = useState([]);
+	const [positions,setPositions] = useState([]);
 
   useEffect(() => {
     fetch("https://s3.amazonaws.com/CMSTest/squaw_creek_container_info.xml?fbclid=IwAR0YUCBa-S_HrMLiXeJTsXdmBXJbLa3PoyCBjJKNlRggthLfNYcCxTogiuo")
